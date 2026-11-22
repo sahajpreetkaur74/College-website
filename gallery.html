@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Riverside Institute of Technology</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="announce" class="announce"><span>Admissions 2027 are open. Last date to apply: 30 June.</span><button id="announce-close" aria-label="Close announcement">&times;</button></div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Riverside Institute<span> of Technology</span></a>
+      <button id="menu-btn" class="menu-btn" aria-label="Open menu">Menu</button>
+      <nav id="nav" class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="courses.html">Courses</a>
+        <a href="faculty.html">Faculty</a>
+        <a href="gallery.html" class="current">Gallery</a>
+        <a href="admissions.html">Admissions</a>
+        <a href="contact.html">Contact</a>
+        <a href="register.html" class="btn btn-small">Register</a>
+        <button id="theme-btn" class="theme-btn" aria-label="Switch dark mode">Dark</button>
+      </nav>
+    </div>
+  </header>
+<section class="page-banner"><div class="container"><h1>Photo Gallery</h1><p>A look around our campus.</p></div></section>
+
+  <section class="section"><div class="container">
+    <p class="hint">Click any picture to view it larger.</p>
+    <div class="gallery">
+        <figure><img src="images/campus.jpg" alt="Main building" data-caption="Main building" class="gallery-img" loading="lazy"><figcaption>Main building</figcaption></figure>
+        <figure><img src="images/library.jpg" alt="Central library" data-caption="Central library" class="gallery-img" loading="lazy"><figcaption>Central library</figcaption></figure>
+        <figure><img src="images/lab.jpg" alt="Computer and science labs" data-caption="Computer and science labs" class="gallery-img" loading="lazy"><figcaption>Computer and science labs</figcaption></figure>
+        <figure><img src="images/sports.jpg" alt="Sports ground" data-caption="Sports ground" class="gallery-img" loading="lazy"><figcaption>Sports ground</figcaption></figure>
+        <figure><img src="images/hostel.jpg" alt="Hostel rooms" data-caption="Hostel rooms" class="gallery-img" loading="lazy"><figcaption>Hostel rooms</figcaption></figure>
+        <figure><img src="images/fest.jpg" style="object-position: 60% 50%" alt="Annual fest" data-caption="Annual fest" class="gallery-img" loading="lazy"><figcaption>Annual fest</figcaption></figure>
+    </div>
+  </div></section>
+  <div id="lightbox" class="lightbox"><img id="lightbox-img" alt=""><p id="lightbox-cap"></p></div>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div><h3>Riverside Institute</h3><p>Building skills and careers since 2001.</p></div>
+      <div><h3>Quick Links</h3><a href="about.html">About</a><a href="courses.html">Courses</a><a href="admissions.html">Admissions</a><a href="gallery.html">Gallery</a><a href="register.html">Register</a><a href="login.html">Student Login</a><a href="feedback.html">Feedback</a></div>
+      <div><h3>Contact</h3><p>Main Road, Delhi<br>admissions@riverside.example</p></div>
+    </div>
+    <p class="copy">&copy; 2026 Riverside Institute of Technology. College project,Sahajpreet Kaur - CSE 3 - 17701012026.</p>
+  </footer>
+  <button id="to-top" class="to-top" aria-label="Back to top">&uarr;</button>
+  <script src="script.js"></script>
+</body>
+</html>
