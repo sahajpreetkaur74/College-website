@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Riverside Institute of Technology</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="announce" class="announce"><span>Admissions 2027 are open. Last date to apply: 30 June.</span><button id="announce-close" aria-label="Close announcement">&times;</button></div>
+
+  <!-- HEADER (same on every page) -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Riverside Institute<span> of Technology</span></a>
+      <button id="menu-btn" class="menu-btn" aria-label="Open menu">Menu</button>
+      <nav id="nav" class="nav">
+        <a href="index.html" class="current">Home</a>
+        <a href="about.html">About</a>
+        <a href="courses.html">Courses</a>
+        <a href="faculty.html">Faculty</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="admissions.html">Admissions</a>
+        <a href="contact.html">Contact</a>
+        <a href="register.html" class="btn btn-small">Register</a>
+        <button id="theme-btn" class="theme-btn" aria-label="Switch dark mode">Dark</button>
+      </nav>
+    </div>
+  </header>
+
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="eyebrow">Admissions open for 2027</span>
+        <h1>Learn it. Build it.<br>Start your career here.</h1>
+        <p>Four-year degree programs with real labs, real projects, and placement support from day one.</p>
+        <a href="courses.html" class="btn">Explore Courses</a>
+        <a href="register.html" class="btn btn-outline">Register Now</a>
+      </div>
+      <div class="hero-img"><img src="images/campus.svg" alt="Main building of the campus" class="photo"></div>
+    </div>
+  </section>
+
+  <section class="stats">
+    <div class="container stats-grid">
+      <div><strong data-target="25">0</strong><span>Years of teaching</span></div>
+      <div><strong data-target="5000">0</strong><span>Students enrolled</span></div>
+      <div><strong data-target="120">0</strong><span>Faculty members</span></div>
+      <div><strong data-target="92">0</strong><span>% placement rate</span></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container two-col">
+      <img src="images/lab.svg" alt="Students' laboratory" class="photo" loading="lazy">
+      <div>
+        <h2>A campus built for hands-on learning</h2>
+        <p>Our teaching is project-based. Students spend more time building things in labs than listening to lectures, and graduate with a portfolio, not just a certificate.</p>
+        <p><a class="link" href="about.html">Read more about us</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <h2>Popular Courses</h2>
+      <div class="cards">
+        <article class="card"><h3>B.Tech Computer Science</h3><p>Programming, AI, databases and web development.</p><small>4 years</small></article>
+        <article class="card"><h3>B.Tech Electronics</h3><p>Circuits, embedded systems and communication.</p><small>4 years</small></article>
+        <article class="card"><h3>MBA</h3><p>Leadership, finance and operations.</p><small>2 years</small></article>
+      </div>
+      <p class="more"><a class="btn" href="courses.html">See all courses</a></p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>News &amp; Events</h2>
+      <ul class="events">
+        <li><div class="date"><b>05</b>Dec</div><div><h3>Annual Tech Fest</h3><p>Three days of hackathons, robotics contests and guest talks.</p></div></li>
+        <li><div class="date"><b>18</b>Dec</div><div><h3>Campus Placement Drive</h3><p>Over 30 companies visiting for final-year students.</p></div></li>
+        <li><div class="date"><b>10</b>Jan</div><div><h3>Inter-College Sports Week</h3><p>Cricket, football, athletics and indoor games.</p></div></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <h2>What Our Students Say</h2>
+      <div class="cards">
+        <blockquote class="card quote">The labs are open late, and the faculty actually help with projects. I built my final-year app here.<cite>Neha, B.Tech CSE, 2025</cite></blockquote>
+        <blockquote class="card quote">The placement cell trained us for interviews from the second year. I got my offer before graduation.<cite>Aman, B.Tech Electronics, 2025</cite></blockquote>
+        <blockquote class="card quote">The MBA program gave me real case studies and a great network of alumni.<cite>Simran, MBA, 2024</cite></blockquote>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="container"><h2>Ready to join us?</h2><p>Applications for 2027 close on 30 June.</p><a href="register.html" class="btn">Register online</a></div>
+  </section>
+
+  <!-- FOOTER (same on every page) -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div><h3>Riverside Institute</h3><p>Building skills and careers since 2001.</p></div>
+      <div><h3>Quick Links</h3><a href="about.html">About</a><a href="courses.html">Courses</a><a href="admissions.html">Admissions</a><a href="gallery.html">Gallery</a><a href="register.html">Register</a><a href="login.html">Student Login</a><a href="feedback.html">Feedback</a></div>
+      <div><h3>Contact</h3><p>Main Road, Karnal, Haryana<br>admissions@riverside.example</p></div>
+    </div>
+    <p class="copy">&copy; 2026 Riverside Institute of Technology. College project, not a real institute.</p>
+  </footer>
+  <button id="to-top" class="to-top" aria-label="Back to top">&uarr;</button>
+  <script src="script.js"></script>
+</body>
+</html>
